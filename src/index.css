@@ -16,8 +16,6 @@ Global Styles
 
 body {
   font-family: "Open Sans", "Roboto", sans-serif;
-  /* background: var(--clr-grey-10);
-  color: var(--clr-grey-1); */
   line-height: 1.5;
   font-size: 0.875em;
 }
@@ -34,8 +32,6 @@ h1,
 h2,
 h3,
 h4 {
-  /* letter-spacing: var(--spacing);
-  text-transform: capitalize; */
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: "Courgette", cursive;
@@ -66,9 +62,8 @@ p {
 Main
 ===============
 */
-/* $darkGrey: #686868; */
 .header {
-  background-color: #868686;
+  background-color: black;
   padding: 1.8rem;
 }
 
@@ -95,17 +90,14 @@ Main
 .header-form-container {
   background-color: white;
   min-width: 23rem;
-  /* width: 40%; */
   border-radius: 0.5rem;
   padding: 2rem;
-  color: #464545;
-  -webkit-box-shadow: 0px 0px 10px dimgray;
-          box-shadow: 0px 0px 10px dimgray;
+  color: #1d1c1c;
 }
 
 .header-form-container input.error {
-  background-color: rgba(223, 55, 55, 0.1);
-  color: darkred;
+  background-color: rgba(223, 55, 55, 0.651);
+  color: white;
 }
 
 .header-form-container .colour-container {
@@ -124,7 +116,7 @@ Main
   height: 0.58rem;
   border-radius: 5px;
   background: white;
-  border: #464545 2px solid;
+  border: #1d1c1c 2px solid;
   -webkit-appearance: none;
 }
 
@@ -153,18 +145,17 @@ Main
   padding: 0.2em;
   border-top-left-radius: 0.3rem;
   border-bottom-left-radius: 0.3rem;
-  border: #464545 2px solid;
+  border: #1d1c1c 2px solid;
   width: 10.3rem;
 }
 
 .header .input-colour:focus {
   outline: none;
-  background-color: #f3f3f3;
 }
 
 .header-btn-random {
-  border: #464545 2px solid;
-  background-color: #464545;
+  border: #1d1c1c 2px solid;
+  background-color: #1d1c1c;
   padding: 0.2em;
   font-size: 1.1em;
   color: white;
@@ -251,7 +242,7 @@ Desktop
   width: 1.15rem;
   height: 1.15rem;
   border-radius: 50%;
-  background: #464545;
+  background: #1d1c1c;
   cursor: pointer;
 }
 
@@ -259,7 +250,7 @@ Desktop
   width: 1.1rem;
   height: 1.1rem;
   border-radius: 50%;
-  background: #464545;
+  background: #1d1c1c;
   cursor: pointer;
 }
 /*# sourceMappingURL=index.css.map */

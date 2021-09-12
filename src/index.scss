@@ -16,8 +16,6 @@ Global Styles
 }
 body {
   font-family: "Open Sans", "Roboto", sans-serif;
-  /* background: var(--clr-grey-10);
-  color: var(--clr-grey-1); */
   line-height: 1.5;
   font-size: 0.875em;
 }
@@ -31,8 +29,6 @@ h1,
 h2,
 h3,
 h4 {
-  /* letter-spacing: var(--spacing);
-  text-transform: capitalize; */
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: "Courgette", cursive;
@@ -59,12 +55,11 @@ Main
 ===============
 */
 
-/* $darkGrey: #686868; */
-$bgGrey: #868686;
-$secondaryGrey: #464545;
+$bgGrey: #4d4c4c;
+$secondaryGrey: #1d1c1c;
 
 .header {
-  background-color: $bgGrey;
+  background-color: black;
   padding: 1.8rem;
 
   &-container {
@@ -83,16 +78,12 @@ $secondaryGrey: #464545;
   &-form-container {
     background-color: white;
     min-width: 23rem;
-    /* width: 40%; */
     border-radius: 0.5rem;
     padding: 2rem;
     color: $secondaryGrey;
-
-    box-shadow: 0px 0px 10px rgb(105, 105, 105);
-
     input.error {
-      background-color: rgba(223, 55, 55, 0.1);
-      color: darkred;
+      background-color: rgba(223, 55, 55, 0.651);
+      color: white;
     }
 
     .colour-container {
@@ -116,11 +107,9 @@ $secondaryGrey: #464545;
         margin-top: 1rem;
       }
       &-value {
-        //display: inline-block;
         font-size: 0.8em;
         width: 1rem;
         text-align: right;
-        //line-height: 1;
       }
     }
     label {
@@ -136,7 +125,6 @@ $secondaryGrey: #464545;
     width: 10.3rem;
     &:focus {
       outline: none;
-      background-color: rgb(243, 243, 243);
     }
   }
   &-btn-random {
