@@ -29,7 +29,6 @@ const SingleColor = ({rgb, weight, index, hexColour}) => {
   const copy = () => {
 
     //remove alert a new one is clicked if clicked
-    // revise this code
     const swatches = document.querySelectorAll('.color');
     swatches.forEach((swatch) => {
       const swatchAlert = swatch.querySelector('.alert');
@@ -37,11 +36,8 @@ const SingleColor = ({rgb, weight, index, hexColour}) => {
         swatchAlert.innerHTML = '';
       }
     })
-    //
-
     //copy to clipboard
     navigator.clipboard.writeText(hex);
-    //
     setAlert(true);
   }
 
